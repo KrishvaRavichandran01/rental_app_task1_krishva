@@ -83,7 +83,7 @@ Widget build(BuildContext context) {
             children: [ // title
               Container(padding: EdgeInsets.only(left: 25,top: 25),
                 child: Text("Explore the world!By Travelling",
-                  style: TextStyle(fontSize: 30),),
+                  style: TextStyle(fontSize: 30),fontWeight: FontWeight.w700,letterSpacing: 1.5),
               ),
               //  search bar
               SizedBox(height: 30,),
