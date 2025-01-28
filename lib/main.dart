@@ -82,8 +82,8 @@ Widget build(BuildContext context) {
           Container(color: Color(0XFFEDE7F6),height: 230,width: 500,child: Column(
             children: [ // title
               Container(padding: EdgeInsets.only(left: 25,top: 25),
-                child: Text("Explore the world!By Travelling",
-                  style: TextStyle(fontSize: 30),fontWeight: FontWeight.w700,letterSpacing: 1.5),
+                child: Text("Explore the world!By Travelling",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w700,letterSpacing: 1.5),
+                )
               ),
               //  search bar
               SizedBox(height: 30,),
